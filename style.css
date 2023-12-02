@@ -1,0 +1,77 @@
+*{
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.body{
+    position: relative;
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: (rgb(207, 194, 194), pink);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+
+.picture{
+    width: 500px;
+    position: relative;
+    height: auto;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0, 0, 0,.2);
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+input,
+.btn{
+    position: center;
+    width: 100px;
+    height: 50px;
+    padding: 5px ;
+    margin : 5px auto;
+    display: block;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: pink;
+    background: pink;
+    cursor: pointer;
+    border: black;
+   
+}
+.btn{
+    position: center;
+    width: 100px;
+    height: 50px;
+    padding: 5px ;
+    margin : 3px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: pink;
+    background: pink;
+    cursor: pointer;
+    border: 2px black ;
+    text-align: center;
+}
+.placeholder{
+    text-align: center;
+    position: relative;
+    width: 1280px auto;
+    height: 900px auto;
+    border: 7px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
